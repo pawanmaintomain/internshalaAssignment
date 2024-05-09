@@ -1,10 +1,6 @@
 import myLogo from "../assets/Component img.svg";
 
 function Navbar() {
-  
-    const handleClick = ()=>{
-      console.log('hello')
-    }
 
   return (
     <>
@@ -22,7 +18,7 @@ function Navbar() {
             </ul>
         </nav> 
       </header>
-        <button className="flex float-end px-5 -mt-14 md:hidden" onClick={handleClick}>
+        <button className="flex float-end px-5 -mt-14 md:hidden">
           <span className="material-symbols-outlined">menu</span>
         </button>
          
